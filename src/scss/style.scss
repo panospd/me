@@ -1,0 +1,47 @@
+.bg-black{
+  background: #000;
+  color: #fff;
+}
+
+
+#main-header{
+  .myPicture{
+    background-image: url('../img/myphoto1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .port-item{
+    width: 30%;
+    .fa{
+      font-size: 2em;
+    }
+  }
+  .port-item:hover{
+    opacity:0.8;
+    cursor: pointer;
+  }
+}
+
+.project-details{
+  background-color: #555;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .container{
+    padding: 0;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 346px) {
+  #main-header{
+    .port-item{
+      .fa{
+        font-size: 1em;
+      }
+    }
+  }
+}
