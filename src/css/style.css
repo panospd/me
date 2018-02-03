@@ -36,6 +36,14 @@
   font-size: 0.8em; }
 
 @media only screen and (max-width: 767px) {
+  #work .card .card-header {
+    font-size: 1.2em; }
+  #work .card .card-text {
+    font-size: 0.7em; }
+  #work .card .card-body p {
+    font-size: 0.7em; } }
+
+@media only screen and (max-width: 767px) {
   #main-header .myPicture img {
     position: relative; }
   .container {
