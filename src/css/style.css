@@ -25,6 +25,13 @@
   background-color: #333;
   color: #fff; }
 
+.social-icons .fa {
+  color: #888;
+  -webkit-transition: color 0.2s; }
+
+.social-icons .fa:hover {
+  color: #fff; }
+
 #work .card-footer h6 {
   font-size: 0.8em; }
 
