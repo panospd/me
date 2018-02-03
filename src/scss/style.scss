@@ -24,7 +24,16 @@
 }
 
 .project-details{
-  background-color: #555;
+  background-color: #333;
+  color: #fff;
+}
+
+#work{
+  .card-footer{
+    h6{
+      font-size: 0.8em;  
+    }
+  }
 }
 
 
