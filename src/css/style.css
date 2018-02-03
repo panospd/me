@@ -16,14 +16,12 @@
   opacity: 0.8;
   cursor: pointer; }
 
-  #portfolio .project-details{
-    background-color: #333;
-    color: #fff;
-  }
-
-#work .col-md-4 .card-body {
-  background-color: #555;
+.project-details {
+  background-color: #333;
   color: #fff; }
+
+#work .card-footer h6 {
+  font-size: 0.8em; }
 
 @media only screen and (max-width: 991px) {
   .container {
