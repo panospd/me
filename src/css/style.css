@@ -3,9 +3,14 @@
   color: #fff; }
 
 #main-header .myPicture {
-  background-image: url("../img/myphoto1.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-color: #ccc;
+  position: relative; }
+  #main-header .myPicture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 #main-header .port-item {
   width: 30%; }
@@ -23,7 +28,9 @@
 #work .card-footer h6 {
   font-size: 0.8em; }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
+  #main-header .myPicture img {
+    position: relative; }
   .container {
     padding: 0;
     margin: auto; } }
