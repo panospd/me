@@ -21,4 +21,14 @@ $(window).resize(function(){
     }
   }
 
+  $(".show-more-less").click(function (event) {
+      if(!$(this).hasClass("more")) {
+          $(this).text("Show Less");
+      } else {
+          $(this).text("Show More");
+      }
+
+      $(this).toggleClass("more");
+  });
+
 });
