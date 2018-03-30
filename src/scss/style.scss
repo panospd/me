@@ -6,11 +6,16 @@
 
 #main-header{
   .myPicture{
-    background-image: url('../img/myphoto1.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #ccc;
+    position: relative;
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
-
   .port-item{
     width: 30%;
     .fa{
@@ -24,6 +29,7 @@
 }
 
 .project-details{
+<<<<<<< HEAD
   background-color: #333;
   color: #fff;
 }
@@ -34,11 +40,81 @@
       font-size: 0.8em;  
     }
   }
+||||||| merged common ancestors
+  background-color: #555;
+=======
+  background-color: #333;
+  color: #fff;
 }
 
+.social-icons{
+  .fa{
+    color: #888;
+    -webkit-transition: color 0.2s;
+  }
+  .fa:hover{
+    color: #fff;
+  }
+>>>>>>> 28f8678562e6758b19da7b22c491f74b024ef920
+}
 
+#work{
+  .carousel-inner{
+    position: relative;
+    .img-overlay{
+      background-color: rgba(0,0,0,0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .card-footer{
+    background-color: #000;
+    h6{
+      font-size: 0.8em;
+    }
+  }
+
+}
 
 @media only screen and (max-width: 991px) {
+  #work{
+    .carousel-caption{
+      h3{
+        font-size: 1em;
+      }
+      p{
+        font-size: 0.7em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #work{
+    .card{
+      .card-header{
+        font-size: 1.2em;
+      }
+      .card-text{
+        font-size: 0.7em;
+      }
+      .card-body{
+        p{
+          font-size: 0.7em;
+        }
+      }
+    }
+  }
+  #main-header{
+    .myPicture{
+      img{
+        position: relative;
+      }
+    }
+  }
   .container{
     padding: 0;
     margin: auto;
@@ -50,6 +126,16 @@
     .port-item{
       .fa{
         font-size: 1em;
+      }
+    }
+  }
+  #work{
+    .carousel-caption{
+      h3{
+        font-size: 0.7em;
+      }
+      p{
+        font-size: 0.5em;
       }
     }
   }

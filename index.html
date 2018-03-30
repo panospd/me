@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="referrer" content="origin">
   <title>Panos Anastasiadis</title>
+  <link rel="icon" type="image/png" href="src/img/resume.png">
   <link rel="stylesheet" href="src/css/font-awesome.min.css">
   <link rel="stylesheet" href="src/css/bootstrap.css">
   <link rel="stylesheet" href="src/css/style.css">
@@ -14,13 +16,14 @@
   <div class="container">
     <header id="main-header">
       <div class="row no-gutters">
-        <div class="myPicture col-lg-4 col-md-5">
+        <div class="myPicture col-12 col-lg-4 col-md-5">
+          <img src="src/img/myphoto1.jpg" alt="" class="img-fluid">
         </div>
-        <div class="col-lg-8 col-md-7">
+        <div class="col-12 col-lg-8 col-md-7">
           <div class="d-flex flex-column">
-            <div class="p-5 bg-dark text-white">
+            <div class="p-4 bg-dark text-white">
               <div>
-                <h1 class="display-4 myName">Panos Anastasiadis</h1>
+                <h2 class="display-4 myName">Panos Anastasiadis</h2>
               </div>
             </div>
             <div class="p-4 bg-black">
@@ -30,11 +33,11 @@
                 </div>
                 <div class="col col-sm-6 col-md-3">
                   <div class="d-flex flex-row-reverse">
-                      <div class="px-2"><a href="https://www.facebook.com/panos.anastasiadis.9"><i class="fa fa-facebook text-white"></i></a></div>
-                      <div class="px-2"><a href="https://www.linkedin.com/in/panosanastasiadis/"><i class="fa fa-linkedin text-white"></i></a></div>
-                      <div class="px-2"><a href="https://github.com/panospd"><i class="fa fa-github text-white"></i></a></div>
+                      <div class="social-icons px-2"><a href="https://www.facebook.com/panos.anastasiadis.9"><i class="fa fa-facebook"></i></a></div>
+                      <div class="social-icons px-2"><a href="https://www.linkedin.com/in/panosanastasiadis/"><i class="fa fa-linkedin"></i></a></div>
+                      <div class="social-icons px-2"><a href="https://plus.google.com/u/0/105941262650140075011"><i class="fa fa-google-plus"></i></a></div>
+                      <div class="social-icons px-2"><a href="https://github.com/panospd"><i class="fa fa-github"></i></a></div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -60,104 +63,269 @@
     </header>
 
     <!-- Home -->
-    <div id="home" class="collapse show">
-      <div class="card card-body bg-primary text-white py-5">
-        <h2>Me in a few words..</h2>
-        <p class="lead">I am a passionate developer who loves programming and developing innovative solutions. I specialize in ASP.NET framework,
-          mostly MVC, while at them same time I keep my self updated in Front End technologies like Angular, JQuery etc. Apart from programming I enjoy cooking, playing football or a board game with friends on a Sunday evening! </p>
+    <div id="home" class="collapse show main-tab">
+      <div class="card card-body bg-primary text-white py-4">
+        <h2>Home</h2>
+        <p class="lead">Welcome to my page</p>
       </div>
       <div class="card card-body py-5">
-        <h3>My Skills</h3>
-        <hr>
-        <h4>C-Sharp</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:70%">70%</div>
+        <div class="card d-none d-sm-block">
+          <h3 class="card-header bg-dark text-white">In a few words</h3>
+          <div class="card-body bg-light">
+            <p class="lead card-text">I am a passionate developer who loves programming and
+              developing innovative solutions. I specialize in ASP.NET framework,
+              mostly MVC, while at them same time I keep my self updated in Front
+              End technologies like Angular, JQuery etc. Apart from programming I
+              enjoy cooking, playing football or a board game with friends on a Sunday evening! </p>
+          </div>
         </div>
-        <h4>ASP.NET MVC</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:60%">70%</div>
-        </div>
-        <h4>Entity Framework</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:70%">70%</div>
-        </div>
-        <h4>JQUERY</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:60%">65%</div>
-        </div>
-        <h4>JavaScript</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:60%">60%</div>
-        </div>
-        <h4>HTML</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:80%">80%</div>
-        </div>
-        <h4>CSS</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:80%">80%</div>
+        <div class="card pt-5">
+          <h3 class="card-header bg-dark text-white">My skills</h3>
+          <div class="card-body bg-light">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="card">
+                  <h3 class="card-header bg-primary text-white">Technical</h3>
+                  <div class="card-body">
+                    <h5>C-Sharp</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:70%"></div>
+                    </div>
+                    <h5>ASP.NET MVC</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:75%"></div>
+                    </div>
+                    <h5>SQL Server</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:60%"></div>
+                    </div>
+                    <h5>Entity Framework</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:70%"></div>
+                    </div>
+                    <h5>JQuery</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:60%"></div>
+                    </div>
+                    <h5>JavaScript</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:60%"></div>
+                    </div>
+                    <h5>HTML, CSS</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:85%"></div>
+                    </div>
+                    <h5>Bootstrap</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-primary" style="width:90%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card">
+                  <h3 class="card-header bg-info text-white">Personal</h3>
+                  <div class="card-body">
+                    <h5>Attention to detail</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:99%"></div>
+                    </div>
+                    <h5>Divergent thinking</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:97%"></div>
+                    </div>
+                    <h5>Curiosity</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:98%"></div>
+                    </div>
+                    <h5>Team Working</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:99%"></div>
+                    </div>
+                    <h5>Modesty</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:98%"></div>
+                    </div>
+                    <h5>Determined</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:99%"></div>
+                    </div>
+                    <h5>Good listener</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:98%"></div>
+                    </div>
+                    <h5>Honesty</h5>
+                    <div class="progress mb-3 bg-dark">
+                      <div class="progress-bar bg-info" style="width:100%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Work -->
 
-    <div id="work" class="collapse">
-      <div class="card card-body bg-success text-white py-5">
-        <h2>Commercial Experience</h2>
+    <div id="work" class="collapse main-tab">
+      <div class="card card-body bg-success text-white py-4">
+        <h2>Work</h2>
+        <p class="lead">Where have I worked</p>
       </div>
-      <div class="card card-body pu-5">
-        <h3 class="pb-3">Where have I worked</h3>
-          <div class="card-deck">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Blacklight Software</h4>
-                <p class="card-text text-muted">Responsible for developing applications in ASP.NET MVC and customizing Microsoft Products (SharePoint, Azure, MS Exchange)</p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Position: Full Stack Developer
-                </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Company type: Software House
-                </p>
+      <div class="card card-body py-4">
+        <h3 class="pb-3">Key Commercial Experience</h3>
+        <div class="row justify-content-center">
+          <div class="work-cards col-12 col-md-7">
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="card">
+                <div class="card-header bg-dark" role="tab" id="headingOne">
+                  <h5 class="mb-0">
+                    <a class="text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Blacklight Software
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show current-work" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="card-body bg-light">
+                    <p class="card-text text-muted">Responsible for developing applications in ASP.NET MVC and
+                      customizing Microsoft Products (SharePoint, Azure, MS Exchange)</p>
+                    <p class="p-2 mb-3 bg-success text-white">
+                      Position: Junior Developer
+                    </p>
+                    <p class="p-2 mb-3 bg-success text-white">
+                      Sector: Software House
+                    </p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <h6 class="text-muted">Wakefield UK | Feb 2018 - Present</h6>
+                  </div>
+                </div>
               </div>
-              <div class="card-footer">
-                <h6 class="text-muted">When: Feb 2018 - Present</h6>
+              <div class="card">
+                <div class="card-header bg-dark" role="tab" id="headingTwo">
+                  <h5 class="mb-0">
+                    <a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      WSP UK
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-body bg-light">
+                    <p class="card-text text-muted">Responsible for data analysis and manipulation
+                      for the evaluation of Strategic Transport Schemes within the UK or internationally.</p>
+                    <p class="p-2 mb-3 bg-success text-white">
+                      Position: Graduate Analyst
+                    </p>
+                    <p class="p-2 mb-3 bg-success text-white">
+                      Sector: Transportation
+                    </p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <h6 class="text-muted">Leeds UK | Sep 2016 - Feb 2018</h6>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">WSP UK LTD</h4>
-                <p class="card-text text-muted">Responsible for providing technical support and data analysis for the evaluation of Strategic Transport Schemes
-                <br class="d-sm-block d-md-none"><br class="d-sm-block d-md-none"></p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Position: Transport Analyst
-                </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Company type: Engineering Company
-                </p>
-              </div>
-              <div class="card-footer">
-                <h6 class="text-muted">When: Sept 2016 - Feb 2018</h6>
+              <div class="card">
+                <div class="card-header bg-dark" role="tab" id="headingThree">
+                  <h5 class="mb-0">
+                    <a class="collapsed text-white" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Jacobs UK
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="card-body bg-light">
+                    <p class="card-text text-muted">Responsible for data analysis and manipulation
+                      for the evaluation of Strategic Motorway Improvements within the UK.</p>
+                    <p class="p-2 mb-3 bg-success text-white">
+                      Position: Graduate Analyst
+                    </p>
+                    <p class="p-2 mb-3 bg-success text-white">
+                      Sector: Transportation
+                    </p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <h6 class="text-muted">Leeds UK | Sep 2015 - Sep 2016</h6>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Show more work -->
+          <div class="col-7 mr-auto pt-3">
+              <button class="btn btn-outline-dark show-more-less" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Show More
+                </button>
+          </div>
+          <div class="col-12 col-md-8 pt-3">
+            <div class="collapse" id="collapseExample">
+              <hr>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" class="d-none d-sm-block" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" class="d-none d-sm-block" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" class="d-none d-sm-block" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <span class="img-overlay"></span>
+                    <img class="d-block img-fluid" src="src/img/referee.jpeg" alt="First slide">
+                    <div class="carousel-caption">
+                      <h3>Football Referee</h3>
+                      <p>2008 - 11</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <span class="img-overlay"></span>
+                    <img class="d-block img-fluid" src="src/img/tutor.jpeg" alt="Second slide">
+                    <div class="carousel-caption">
+                      <h3>Private Tutor</h3>
+                      <p>2007 - 10</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <span class="img-overlay"></span>
+                    <img class="d-block img-fluid" src="src/img/barman.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                      <h3>Bartender</h3>
+                      <p>2012 - 14</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
     <!-- Portfolio -->
 
-    <div id="portfolio" class="collapse">
-      <div class="card card-body bg-warning py-5">
+    <div id="portfolio" class="collapse main-tab">
+      <div class="card card-body bg-warning py-4">
         <h3>Key Projects</h3>
+        <p class="lead">What have I done</p>
       </div>
 
-      <div class="card card-body py-5">
+      <div class="card card-body py-5 bg-light">
         <h3>What have I built</h3>
         <p class="lead">Below is a summary of key projects I have completed. If you wish to have a look at my full project portfolio
         click <a href="https://github.com/panospd">here</a> to visit my github account.</p>
         <hr>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 mt-5 mt-md-0">
             <div class="card">
               <img class="card-img-top img-fluid" style="height:150px" src="src/img/vidly.png" alt="Card image cap">
               <div class="card-body project-details">
@@ -167,7 +335,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-5 mt-md-0">
             <div class="card">
               <img class="card-img-top img-fluid" style="height:150px" src="src/img/my-budget.png" alt="Card image cap">
               <div class="card-body project-details">
@@ -177,7 +345,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-5 mt-md-0">
             <div class="card">
               <img class="card-img-top img-fluid" style="height:150px" src="src/img/pig-game.png" alt="Card image cap">
               <div class="card-body project-details">
@@ -188,10 +356,10 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4">
-          <div class="col-md-4">
+        <div class="row pt-md-5">
+          <div class="col-md-4 mt-5 mt-md-0">
             <div class="card">
-              <img class="card-img-top img-fluid" style="height:150px" src="src/img/omnifood.png" alt="Card image cap">
+              <img class="card-img-top img-fluid" style="height:150px" src="src/img/omnifood.PNG" alt="Card image cap">
               <div class="card-body project-details">
                 <h4 class="card-title">Omnifood</h4>
                 <p class="card-text">A simple yet beautiful website for a company offering healthy meal deals.
@@ -200,9 +368,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-5 mt-md-0">
             <div class="card">
-              <img class="card-img-top img-fluid" style="height:150px" src="src/img/mizuxe.png" alt="Card image cap">
+              <img class="card-img-top img-fluid" style="height:150px" src="src/img/mizuxe.PNG" alt="Card image cap">
               <div class="card-body project-details">
                 <h4 class="card-title">Mizuxe</h4>
                 <p class="card-text">Website theme suitable for books promotion. The site is built using Bootstrap 4.0 beta version.</p>
@@ -210,9 +378,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-5 mt-md-0">
             <div class="card">
-              <img class="card-img-top img-fluid" style="height:150px" src="src/img/glozzom.png" alt="Card image cap">
+              <img class="card-img-top img-fluid" style="height:150px" src="src/img/glozzom.PNG" alt="Card image cap">
               <div class="card-body project-details">
                 <h4 class="card-title">Glozzom</h4>
                 <p class="card-text">Beautiful website template suitable for many different purposes. The site is built using Bootstrap 4.0 beta version.</p>
@@ -226,8 +394,8 @@
 
     <!-- Contact -->
 
-    <div id="contact" class="collapse">
-      <div class="card card-body bg-danger text-white py-5">
+    <div id="contact" class="collapse main-tab">
+      <div class="card card-body bg-danger text-white py-4">
         <h2>Contact me</h2>
         <p class="lead">I am always happy to hear from you.</p>
       </div>
@@ -266,9 +434,20 @@
 
     <!-- Footer -->
     <footer id="main-footer" class="p-5 bg-dark text-white">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="text-muted">Thank you for visiting my site!</p>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col col-md-6">
+            <h4 class="text-muted">Panos Anastasiadis</h4>
+            <p class="text-muted">Greenhouse, Beeston Road, Leeds, LS11 6AD, UK</p>
+          </div>
+          <div class="col d-none d-sm-block col-md-3">
+            <div class="d-flex flex-row-reverse">
+                <div class="social-icons px-2"><a href="https://www.facebook.com/panos.anastasiadis.9"><i class="fa fa-facebook"></i></a></div>
+                <div class="social-icons px-2"><a href="https://www.linkedin.com/in/panosanastasiadis/"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-icons px-2"><a href="https://plus.google.com/u/0/105941262650140075011"><i class="fa fa-google-plus"></i></a></div>
+                <div class="social-icons px-2"><a href="https://github.com/panospd"><i class="fa fa-github"></i></a></div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -281,7 +460,7 @@
 
   <script>
     $('.port-item').click(function(){
-      $('.collapse').collapse('hide');
+      $('.main-tab').collapse('hide');
     });
   </script>
 </body>
