@@ -34,6 +34,23 @@
 }
 
 #work{
+  .carousel-inner{
+    position: relative;
+    .img-overlay{
+      background-color: rgba(0,0,0,0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .card-footer{
+    background-color: #000;
+    h6{
+      font-size: 0.8em;
+    }
+  }
   .card-footer{
     h6{
       font-size: 0.8em;
@@ -53,26 +70,6 @@
   }
 }
 
-#work{
-  .carousel-inner{
-    position: relative;
-    .img-overlay{
-      background-color: rgba(0,0,0,0.6);
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-    }
-  }
-  .card-footer{
-    background-color: #000;
-    h6{
-      font-size: 0.8em;
-    }
-  }
-
-}
 
 @media only screen and (max-width: 991px) {
   #work{
