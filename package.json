@@ -15,8 +15,16 @@
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.5",
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
-  }
+    "gulp-sass": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panospd/me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panospd/me/issues"
+  },
+  "homepage": "https://github.com/panospd/me#readme"
 }

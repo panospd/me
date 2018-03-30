@@ -21,36 +21,23 @@
   opacity: 0.8;
   cursor: pointer; }
 
-<<<<<<< HEAD
-.project-details {
-  background-color: #333;
-||||||| merged common ancestors
-  #portfolio .project-details{
-    background-color: #333;
-    color: #fff;
-  }
-
-#work .col-md-4 .card-body {
-  background-color: #555;
-=======
 .project-details {
   background-color: #333;
   color: #fff; }
+
+#work {
+  background-color: #333;
+  color: #fff; }
+  #work .card-footer h6 {
+    font-size: 0.8em; }
 
 .social-icons .fa {
   color: #888;
   -webkit-transition: color 0.2s; }
 
 .social-icons .fa:hover {
->>>>>>> 28f8678562e6758b19da7b22c491f74b024ef920
   color: #fff; }
 
-<<<<<<< HEAD
-#work .card-footer h6 {
-  font-size: 0.8em; }
-
-||||||| merged common ancestors
-=======
 #work .carousel-inner {
   position: relative; }
   #work .carousel-inner .img-overlay {
@@ -66,7 +53,6 @@
   #work .card-footer h6 {
     font-size: 0.8em; }
 
->>>>>>> 28f8678562e6758b19da7b22c491f74b024ef920
 @media only screen and (max-width: 991px) {
   #work .carousel-caption h3 {
     font-size: 1em; }
