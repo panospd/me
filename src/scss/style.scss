@@ -33,6 +33,16 @@
   color: #fff;
 }
 
+.social-icons{
+  .fa{
+    color: #888;
+    -webkit-transition: color 0.2s;
+  }
+  .fa:hover{
+    color: #fff;
+  }
+}
+
 #work{
   .carousel-inner{
     position: relative;
@@ -51,25 +61,8 @@
       font-size: 0.8em;
     }
   }
-  .card-footer{
-    h6{
-      font-size: 0.8em;
-    }
-  }
-  background-color: #333;
-  color: #fff;
-}
 
-.social-icons{
-  .fa{
-    color: #888;
-    -webkit-transition: color 0.2s;
-  }
-  .fa:hover{
-    color: #fff;
-  }
 }
-
 
 @media only screen and (max-width: 991px) {
   #work{

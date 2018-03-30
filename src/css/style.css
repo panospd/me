@@ -25,31 +25,27 @@
   background-color: #333;
   color: #fff; }
 
-#work {
-  background-color: #333;
-  color: #fff; }
-  #work .carousel-inner {
-    position: relative; }
-    #work .carousel-inner .img-overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%; }
-  #work .card-footer {
-    background-color: #000; }
-    #work .card-footer h6 {
-      font-size: 0.8em; }
-  #work .card-footer h6 {
-    font-size: 0.8em; }
-
 .social-icons .fa {
   color: #888;
   -webkit-transition: color 0.2s; }
 
 .social-icons .fa:hover {
   color: #fff; }
+
+#work .carousel-inner {
+  position: relative; }
+  #work .carousel-inner .img-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#work .card-footer {
+  background-color: #000; }
+  #work .card-footer h6 {
+    font-size: 0.8em; }
 
 @media only screen and (max-width: 991px) {
   #work .carousel-caption h3 {
